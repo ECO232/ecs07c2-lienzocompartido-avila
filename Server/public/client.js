@@ -22,7 +22,7 @@ function draw() {
     background(220);
 
     elements.forEach((element)=>{
-        FileList(element.r, element.g, element.b)
+        fill(element.r, element.g, element.b)
         ellipse(element.x, element.y, element.size, element.size)
     })
 
